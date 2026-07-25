@@ -1,0 +1,54 @@
+# ---- Secrets & credentials (never commit these) ----
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*credentials*.json
+*token*.txt
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+build/
+dist/
+.installed.cfg
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+notebooks/
+
+# ---- Streamlit ----
+# (secrets.toml is excluded above under Secrets; .streamlit/config.toml is fine
+#  to commit if you ever add one, since it's just theme/display settings)
+
+# ---- Logs & caches ----
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editors ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Local data you don't want to publish ----
+# (uncomment if you ever download the full solve history / raw exports locally)
+# *.csv
+# /data/raw/
