@@ -26,7 +26,6 @@ dist/
 
 # ---- Jupyter ----
 .ipynb_checkpoints/
-notebooks/
 
 # ---- Streamlit ----
 
