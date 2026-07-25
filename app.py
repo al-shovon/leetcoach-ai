@@ -1,6 +1,5 @@
 """LeetCoach AI — Streamlit app.
 
-
 """
 import json
 import math
@@ -16,7 +15,7 @@ import requests
 import streamlit as st
 
 # --------------------------------------------------------------------------
-# Load pre-trained artifacts (see notebook, Section 10)
+# Load pre-trained artifacts 
 # --------------------------------------------------------------------------
 ART_DIR = Path(__file__).parent / "artifacts"
 
@@ -100,7 +99,7 @@ def get_recent_solved_ids(profile: dict) -> list:
 
 
 # --------------------------------------------------------------------------
-# Recommendation engine (same scoring logic as the training notebook)
+# Recommendation engine 
 # --------------------------------------------------------------------------
 def recommend(theta_by_topic: dict, solved_ids: list, k: int = 10, allow_premium: bool = False) -> pd.DataFrame:
     cand = df[df["InDSAScope"] & ~df["ID"].isin(solved_ids)].copy()

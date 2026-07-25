@@ -1,4 +1,4 @@
-# ---- Secrets & credentials (never commit these) ----
+
 .env
 .env.*
 !.env.example
@@ -29,8 +29,7 @@ dist/
 notebooks/
 
 # ---- Streamlit ----
-# (secrets.toml is excluded above under Secrets; .streamlit/config.toml is fine
-#  to commit if you ever add one, since it's just theme/display settings)
+
 
 # ---- Logs & caches ----
 *.log
@@ -47,8 +46,3 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
-
-# ---- Local data you don't want to publish ----
-# (uncomment if you ever download the full solve history / raw exports locally)
-# *.csv
-# /data/raw/
