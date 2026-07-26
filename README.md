@@ -104,7 +104,6 @@ Since no public multi-user LeetCode interaction dataset exists, a population of 
 <div align="center">
 <img src="assets/example-output.png" alt="Example LeetCoach AI output" width="700">
 
-<em>Illustrative example (placeholder data) — swap this for a real screenshot of your own deployed app once it's live.</em>
 </div>
 
 ## Project Structure
@@ -128,10 +127,6 @@ leetcoach-ai/
 
 ```bash
 git clone https://github.com/al-shovon/leetcoach-ai.git
-cd leetcoach-ai
-python3 -m venv venv && source venv/bin/activate   # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
 ```
 
 ## Security & Privacy
@@ -154,7 +149,7 @@ streamlit run app.py
 
 ## Author
 
-**Shovon** — Final-year BSc Software Engineering (Data Science), Daffodil International University
+**Abdullah Al Shovon**
 
 [LinkedIn](https://www.linkedin.com/in/shoovoon/) · [GitHub](https://github.com/al-shovon)
 
