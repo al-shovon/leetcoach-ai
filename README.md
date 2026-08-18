@@ -10,10 +10,9 @@ Most coding platforms track *how many* problems you've solved. LeetCoach AI esti
 [![Streamlit](https://img.shields.io/badge/streamlit-app-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/al-shovon/leetcoach-ai)](https://github.com/al-shovon/leetcoach-ai/commits/main)
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](#) 
-<!-- ^ replace the # above with your actual .streamlit.app URL once deployed -->
+[![Live Demo](https://leetcoach-ai.streamlit.app/)
 
-**[Try the live demo →](#)**
+**[Try the live demo →](https://leetcoach-ai.streamlit.app/)**
 
 </div>
 
